@@ -66,7 +66,7 @@ function verificar() {
                 letras += tentativas[i][j]
             }
         }
-        documento.getElementById("letrasutilizadas").innerText = letras;
+        document.getElementById("letrasutilizadas").innerText = letras;
      }
 
     if (segredo == tentativa) {
